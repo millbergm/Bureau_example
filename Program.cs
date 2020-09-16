@@ -7,10 +7,11 @@ class Program
         string contents = "";
 
         System.Console.WriteLine("Öppnar byrålådan...");
+        System.Console.WriteLine("Har ändrat i programmet ");
 
         while (true)
         {
-            System.Console.Write("Vad vill du lägga i lådan: ");
+            System.Console.Write("Vad vill du lägga i byrålådan: ");
             string input = Console.ReadLine();
 
             if (input.ToLower() == "q" || input.ToLower() == "inget")
